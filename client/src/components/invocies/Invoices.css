@@ -1,0 +1,40 @@
+.Invoices__ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 730px;
+  height: 72px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.Invoices__ svg:hover {
+  cursor: pointer;
+}
+
+.Invoices__status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.paid {
+  background-color: rgba(51, 214, 159, 0.06);
+}
+
+.pending {
+  background-color: rgba(255, 143, 0, 0.06);
+}
+
+.draft {
+  background-color: rgba(151, 151, 151, 0.06);
+}
+
+.Invoices__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}/*# sourceMappingURL=Invoices.css.map */

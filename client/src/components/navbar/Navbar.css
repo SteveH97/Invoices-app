@@ -1,0 +1,19 @@
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+hr{
+    width: 98%;
+    border-color: #494E6E;
+    opacity: 40%;
+    margin: 0;
+}
+
+@media screen and (max-width:1024px){
+        hr{
+            width: 1px;
+            height: 78px;
+        }
+}

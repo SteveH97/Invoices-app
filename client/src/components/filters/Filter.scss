@@ -1,0 +1,100 @@
+.Filter__{
+    display: flex;
+    margin-top: 77px;
+    width: 730px;
+    height: 55px;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px){
+        max-width: 672px;
+    }
+
+    @media screen and (max-width: 375px){
+        max-width: 327px;
+    }
+}
+
+.Filter__main{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+    svg:hover{
+        cursor: pointer;
+    }
+}
+
+.Filter__main-menu{
+    z-index: 3;
+    flex-direction: column;
+    position: absolute;
+    width: 192px;
+    height: 128px;
+    top: 37px;
+    padding: 24px;
+    border-radius: 8px;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.Filter__checkboxes{
+    display:flex;
+    align-items: center;
+
+
+    label{
+        margin-left: 15px;
+    }
+
+    :hover{
+        cursor: pointer;
+    }
+}
+
+.Filter__add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px 8px 8px;
+    width: 150px;
+    height: 48px;
+    border-radius: 24px;
+    background: #7C5DFA;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+
+    svg{
+        color: #7C5DFA;
+    }
+}
+
+.Filter__add:hover{
+    cursor: pointer;
+}
+
+.Filter__add:active{
+    transition: .2s;
+    background: #9277FF;
+}
+
+.circle{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.Filter__rightSide{
+    display: flex;
+    align-items: center;
+    width: 310px;
+    justify-content: space-between;
+}
